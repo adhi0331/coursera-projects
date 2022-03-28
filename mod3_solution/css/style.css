@@ -1,7 +1,87 @@
+/* Header Styles */
 #header-nav {
     background-color: grey;
+    border: solid 2px;
+    border-color: black;
+}
+
+.container {
+    position: relative;
 }
 
 h1 {
-    font-weight: bold;
+    font-weight: bold; 
+    float:left;
 }
+
+#collapsable-nav{
+   background-color: white;
+}
+
+.navbar-nav {
+    margin: 0px -15px;
+}
+
+.navbar-header button.navbar-toggle {
+    margin-top: -30px;
+    clear: left;
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    height: 45px;
+    border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle .icon-bar {
+    background: black;
+
+}
+
+#nav-list a{
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+}
+#nav-list a:hover {
+    background-color: grey;
+}
+
+#collapsable-nav #nav-list hr {
+    margin: 0px;
+    border-top: 2px solid black;
+}
+
+/* End Header Styles */
+
+/* Extra Large Devices */
+@media (min-width: 1200px){
+    #collapsable-nav{
+        visibility: hidden;
+    }
+}
+
+/* Large Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #collapsable-nav{
+        visibility: hidden;
+    }
+}
+
+/* Medium Devices */
+@media (min-width: 768px) and (max-width: 991px){
+    #collapsable-nav {
+        visibility: hidden;
+    }
+}
+
+/* Small Devices */
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+
+/* Extra Small Devices */
+@media (max-width: 575px){
+
+}
+
+
