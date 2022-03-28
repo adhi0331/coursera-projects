@@ -1,8 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
 /* Header Styles */
 #header-nav {
     background-color: grey;
     border: solid 2px;
     border-color: black;
+    border-radius: 0px;
 }
 
 .container {
@@ -10,8 +19,10 @@
 }
 
 h1 {
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold; 
-    float:left;
+    float: left;
+    color: black;
 }
 
 #collapsable-nav{
@@ -39,7 +50,9 @@ h1 {
 
 #nav-list a{
     color: black;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
+    font-weight: bold;
     text-align: center;
 }
 #nav-list a:hover {
@@ -52,6 +65,37 @@ h1 {
 }
 
 /* End Header Styles */
+
+/* Body Styles */
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2.6em;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#chicken-content, #beef-content, #sushi-content {
+    background-color: grey;
+    margin-bottom: 15px;
+}
+
+.header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+}
+
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    padding: 15px;
+    color: black;
+}
+
+/* End Body Styles */
 
 /* Extra Large Devices */
 @media (min-width: 1200px){
