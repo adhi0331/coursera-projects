@@ -14,11 +14,106 @@
 
     <title>Bootstrap Starter Page</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
+  <!-- Header -->
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="brand-name">
+          <h1>Food, LLC</h1>
+        </div>
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"--></span>
+        </button>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#chicken-content">
+                <br class="hidden-xs">Chicken
+              </a>
+            </li>
+            <li>
+              <a href="#beef-content">
+                <br class="hidden-xs">Beef
+              </a>
+            </li>
+            <li>
+              <a href="#sushi-content">
+                <br class="hidden-xs">Sushi
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <!-- End Header -->
+
+  <!-- Body -->
+  <div id = "main-content"class="container">
+   
+    <div id = "chicken-content">
+      <div>
+        <p>Chicken</p>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Ea quibusdam autem pariatur perspiciatis! 
+          Voluptatem non esse distinctio laudantium, 
+          laborum veritatis quis nostrum velit consectetur 
+          eum maxime neque rem iure soluta. Lorem ipsum dolor sit amet 
+          consectetur adipisicing elit. Dolor consectetur officia amet 
+          nulla perferendis accusantium qui iure molestiae excepturi, 
+          culpa earum ex. Eaque tenetur necessitatibus esse nostrum molestiae 
+          iure deserunt.</p>
+      </div>
+    </div>
+
+    <div id = "beef-content">
+      <div>
+        <p>Beef</p>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Ea quibusdam autem pariatur perspiciatis! 
+          Voluptatem non esse distinctio laudantium, 
+          laborum veritatis quis nostrum velit consectetur 
+          eum maxime neque rem iure soluta. Lorem ipsum dolor sit amet 
+          consectetur adipisicing elit. Dolor consectetur officia amet 
+          nulla perferendis accusantium qui iure molestiae excepturi, 
+          culpa earum ex. Eaque tenetur necessitatibus esse nostrum molestiae 
+          iure deserunt.</p>
+      </div>
+    </div>
+
+    <div id = "sushi-content">
+      <div>
+        <p>Sushi</p>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Ea quibusdam autem pariatur perspiciatis! 
+          Voluptatem non esse distinctio laudantium, 
+          laborum veritatis quis nostrum velit consectetur 
+          eum maxime neque rem iure soluta. Lorem ipsum dolor sit amet 
+          consectetur adipisicing elit. Dolor consectetur officia amet 
+          nulla perferendis accusantium qui iure molestiae excepturi, 
+          culpa earum ex. Eaque tenetur necessitatibus esse nostrum molestiae 
+          iure deserunt.</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- End Body -->
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
